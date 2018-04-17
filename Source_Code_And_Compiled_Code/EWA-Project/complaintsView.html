@@ -1,0 +1,67 @@
+
+<link rel="stylesheet" href="css/complaintsviewCss.css">
+<!--------------------------------------------Complaints logic ----------------------------------------------------------------------------->
+
+<!--Side Bar Section-->
+<div id="usermodal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Description</h4>
+            </div>
+            <form action="action">
+            <div class="modal-body">
+
+                <label for="usercomment">Comment:</label>
+                <textarea class="form-control" rows="5" id="usercomment" name="usercomment"></textarea>
+
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <input type="submit" class="btn btn-success pull-right">
+            </div>
+            </form>
+        </div>
+
+    </div>
+</div>
+<div id="adminmodal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Description</h4>
+            </div>
+            <form action="actionadmin">
+                <div class="modal-body">
+
+                    <label for="usercomment">Comment:</label>
+                    <textarea class="form-control" rows="5" id="admincomment" name="admincomment"></textarea>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <input type="submit" class="btn btn-success pull-right">
+                </div>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+<div class="container">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <div class="row">
+        <!-- Contenedor Principal -->
+        <div class="comments-container">
+            <h1>Feedbacks
+              <br>
+              <a href="#" data-toggle="modal" data-target="#usermodal">Click here to submit a feedback</a>
+            </h1>

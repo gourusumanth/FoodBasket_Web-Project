@@ -1,0 +1,40 @@
+/*.row{*/
+    /*margin-top:40px;*/
+    /*padding: 0 10px;*/
+    /*!*margin-left: 150px;*!*/
+
+/*}*/
+/*#inventorydiv{*/
+    /*margin-left: 150px;*/
+/*}*/
+/*.clickable{*/
+    /*cursor: pointer;*/
+/*}*/
+
+/*.panel-heading div {*/
+    /*margin-top: -18px;*/
+    /*font-size: 15px;*/
+
+
+/*}*/
+/*.panel-heading div span{*/
+    /*margin-left:5px;*/
+/*}*/
+/*.panel-body{*/
+    /*display: none;*/
+
+/*}*/
+
+#inventorydiv{
+    margin-left: 30%;
+    /*width: 500px;*/
+}
+#tablediv{
+    height: 500px;
+    /*width:500px;*/
+    overflow-y: scroll;
+
+}
+tdcss,thcss{
+   text-align: center;
+}

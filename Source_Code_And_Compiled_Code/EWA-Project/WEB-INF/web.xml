@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="2.5">
+
+  <display-name>Food Basket</display-name>
+
+  <welcome-file-list>
+    <welcome-file>MainPageServlet</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <servlet-name>MainPageServlet</servlet-name>
+    <servlet-class>MainPageServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>MainPageServlet</servlet-name>
+    <url-pattern>/MainPageServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>LoginServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>RestaurantServlet</servlet-name>
+    <servlet-class>RestaurantServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>RestaurantServlet</servlet-name>
+    <url-pattern>/RestaurantServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AdminServlet</servlet-name>
+    <servlet-class>AdminServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>AdminServlet</servlet-name>
+    <url-pattern>/AdminServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>FoodVendorServlet</servlet-name>
+    <servlet-class>FoodVendorServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>FoodVendorServlet</servlet-name>
+    <url-pattern>/FoodVendorServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>StartupServlet</servlet-name>
+    <servlet-class>StartupServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>StartupServlet</servlet-name>
+    <url-pattern>/StartupServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>RestaurantMenuServlet</servlet-name>
+    <servlet-class>RestaurantMenuServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>RestaurantMenuServlet</servlet-name>
+    <url-pattern>/RestaurantMenuServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>CartServlet</servlet-name>
+    <servlet-class>CartServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>CartServlet</servlet-name>
+    <url-pattern>/CartServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>CheckoutServlet</servlet-name>
+    <servlet-class>CheckoutServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>CheckoutServlet</servlet-name>
+    <url-pattern>/CheckoutServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ViewOrdersServlet</servlet-name>
+    <servlet-class>ViewOrdersServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ViewOrdersServlet</servlet-name>
+    <url-pattern>/ViewOrdersServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AutoCompleteServlet</servlet-name>
+    <servlet-class>AutoCompleteServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>AutoCompleteServlet</servlet-name>
+    <url-pattern>/AutoCompleteServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ReviewServlet</servlet-name>
+    <servlet-class>ReviewServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ReviewServlet</servlet-name>
+    <url-pattern>/ReviewServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>TrendingServlet</servlet-name>
+    <servlet-class>TrendingServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>TrendingServlet</servlet-name>
+    <url-pattern>/TrendingServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>FastCheckoutServlet</servlet-name>
+    <servlet-class>FastCheckoutServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>FastCheckoutServlet</servlet-name>
+    <url-pattern>/FastCheckoutServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>UpdateOrderServlet</servlet-name>
+    <servlet-class>UpdateOrderServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>UpdateOrderServlet</servlet-name>
+    <url-pattern>/UpdateOrderServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>DealMatchesServlet</servlet-name>
+    <servlet-class>DealMatchesServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>DealMatchesServlet</servlet-name>
+    <url-pattern>/DealMatchesServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AboutUsServlet</servlet-name>
+    <servlet-class>AboutUsServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>AboutUsServlet</servlet-name>
+    <url-pattern>/AboutUsServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>

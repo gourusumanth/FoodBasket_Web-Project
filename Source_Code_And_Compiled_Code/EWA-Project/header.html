@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MenuScreen</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/AutoComplete.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="js/datavisualization.js"></script>
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <link rel="stylesheet" href="css/headercss.css">
+    <link rel="stylesheet" href="css/footerCss.css">
+    <link rel="stylesheet" href="css/restaurantMenuCss.css">
+    <link rel="stylesheet" href="css/cartCss.css">
+    <link rel="stylesheet" href="css/carouselcss.css">
+    <link rel="stylesheet" href="css/ManagerScreenCss.css">
+    <link rel="stylesheet" href="css/uploadFoodScreenCss.css">
+    <link rel="stylesheet" href="css/vieworderscss.css">
+    <link rel="stylesheet" href="css/deals.css">
+
+</head>
+<body onload="init()">
+
+<!-----------------------------------------------------navigation Bar Code------------------------------------------------------------------->
+    <div id="foodbasket-navbar">
+        <div class="container">
+            <div class="row row1">
+                <ul class="largenav pull-right">
+                    <li class="upper-links"><a class="links" href="AboutUsServlet">AboutUs</a></li>
+                    <!--<li class="upper-links"><a class="links" href="#">Sell on Foodbasket</a></li>-->
+                    <li class="upper-links"><a class="links" href="#contact_anchor">Contact US</a></li>
+                    <li class="upper-links"><a class="links" href="ViewOrdersServlet">View Orders</a></li>
+                    <li class="upper-links"><a class="links" href="FastCheckoutServlet?checkOut">Fast Checkout</a></li>
+                    <li class="upper-links"><a class="links" href="DealMatchesServlet">Deal Matches</a></li>
+                    <li class="upper-links"><a class="links" href="TrendingServlet">Trending</a></li>
+                    <li class="upper-links">
+                        <a class="links" href="ViewOrdersServlet">
+                            Track Order
+                        </a>
+                    </li>
+                    <!--<li class="upper-links"><a class="links" href="#">My Account</a></li>-->
+
+                    <a href="" class="upper-links" data-toggle="modal" data-target="#myModal" style="color:#fff;font-size: 12px;text-decoration: none; line-height: 23px;">Signin</a>

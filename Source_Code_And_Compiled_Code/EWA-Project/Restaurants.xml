@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Restaurants>
+    <restaurant id="1">
+        <name>Vapiano</name>
+        <tagline>We Put our Passion in Cooking</tagline>
+        <time>7:00am - 9:00pm</time>
+        <expensiveMeter>$$$$</expensiveMeter>
+        <minimumAmount>15</minimumAmount>
+        <image>images/italian.jpg</image>
+        <deliveryFee>3</deliveryFee>
+        <zipcode>60610</zipcode>
+    </restaurant>
+    <restaurant id="2">
+        <name>Girl and The Goat</name>
+        <tagline> We Express our love with food</tagline>
+        <time>7:00am - 9:00pm</time>
+        <expensiveMeter>$$$$</expensiveMeter>
+        <minimumAmount>15</minimumAmount>
+        <image>images/indian.jpg</image>
+        <deliveryFee>4</deliveryFee>
+        <zipcode>60615</zipcode>
+    </restaurant>
+    <restaurant id="3">
+        <name>California pizza</name>
+        <tagline> We Express our love with food</tagline>
+        <time>7:00am - 9:00pm</time>
+        <expensiveMeter>$$$</expensiveMeter>
+        <minimumAmount>15</minimumAmount>
+        <image>images/cpk.jpg</image>
+        <deliveryFee>4</deliveryFee>
+        <zipcode>60615</zipcode>
+    </restaurant>
+    <restaurant id="4">
+        <name>PF Chang's</name>
+        <tagline> We Express our love with chop sticks</tagline>
+        <time>7:00am - 9:00pm</time>
+        <expensiveMeter>$$$</expensiveMeter>
+        <minimumAmount>12</minimumAmount>
+        <image>images/pfc.jpg</image>
+        <deliveryFee>4</deliveryFee>
+        <zipcode>60611</zipcode>
+    </restaurant>
+    <restaurant id="5">
+        <name>Vietnam Cuisine</name>
+        <tagline> we cook organic</tagline>
+        <time>7:00am - 9:00pm</time>
+        <expensiveMeter>$$$$</expensiveMeter>
+        <minimumAmount>12</minimumAmount>
+        <image>images/vietnamcuisine.jpg</image>
+        <deliveryFee>4</deliveryFee>
+        <zipcode>60612</zipcode>
+    </restaurant>
+    <restaurant id="6">
+        <name>Shushi hotpot</name>
+        <tagline> we are the best shushi maker's</tagline>
+        <time>7:00am - 9:00pm</time>
+        <expensiveMeter>$$$</expensiveMeter>
+        <minimumAmount>14</minimumAmount>
+        <image>images/japnese1.jpg</image>
+        <deliveryFee>4</deliveryFee>
+        <zipcode>60612</zipcode>
+    </restaurant>
+
+    <restaurant id="7">
+        <name>Chi Cafe</name>
+        <tagline> Chineese Food All night</tagline>
+        <time>7:00am - 9:00pm</time>
+        <expensiveMeter>$$</expensiveMeter>
+        <minimumAmount>15</minimumAmount>
+        <image>images/chicafe.jpg</image>
+        <deliveryFee>5</deliveryFee>
+        <zipcode>50616</zipcode>
+    </restaurant>
+<restaurant id="8">
+        <name>Star Kitchen</name>
+        <tagline> The best Asian Kitchen</tagline>
+        <time>7:00am - 9:00pm</time>
+        <expensiveMeter>$$$</expensiveMeter>
+        <minimumAmount>10</minimumAmount>
+        <image>images/starkitchen.jpg</image>
+        <deliveryFee>4</deliveryFee>
+        <zipcode>50615</zipcode>
+    </restaurant>
+<restaurant id="9">
+        <name>Onesti’s Pizza</name>
+        <tagline> Pizza Bakers</tagline>
+        <time>7:00am - 9:00pm</time>
+        <expensiveMeter>$$$</expensiveMeter>
+        <minimumAmount>10</minimumAmount>
+        <image>images/one.jpg</image>
+        <deliveryFee>4</deliveryFee>
+        <zipcode>50615</zipcode>
+    </restaurant>
+    <restaurant id="10">
+        <name>Chutney's</name>
+        <tagline>Authentic indian food</tagline>
+        <time>7:00am - 09:00pm</time>
+        <expensiveMeter>$$$</expensiveMeter>
+        <minimumAmount>12</minimumAmount>
+        <image>images/chutneys.jpg</image>
+        <deliveryFee>4</deliveryFee>
+        <zipcode>40615</zipcode>
+    </restaurant>
+    <restaurant id="11">
+        <name>Gokul Chat</name>
+        <tagline>Pani puri maker's since 1959</tagline>
+        <time>7:00am - 09:00pm</time>
+        <expensiveMeter>$$$</expensiveMeter>
+        <minimumAmount>12</minimumAmount>
+        <image>images/gokul.jpg</image>
+        <deliveryFee>4</deliveryFee>
+        <zipcode>40612</zipcode>
+    </restaurant>
+    <restaurant id="12">
+        <name>Rajdhani</name>
+        <tagline>Authentic Rajasthani Style</tagline>
+        <time>7:00am - 09:00pm</time>
+        <expensiveMeter>$$$$</expensiveMeter>
+        <minimumAmount>12</minimumAmount>
+        <image>images/rajdhani.jpg</image>
+        <deliveryFee>4</deliveryFee>
+        <zipcode>40611</zipcode>
+    </restaurant>
+    <restaurant id="13">
+        <name>Cream Stone</name>
+        <tagline>Ice Cream Specialist</tagline>
+        <time>7:00am - 09:00pm</time>
+        <expensiveMeter>$$$$</expensiveMeter>
+        <minimumAmount>12</minimumAmount>
+        <image>images/creamstone.jpg</image>
+        <deliveryFee>4</deliveryFee>
+        <zipcode>40611</zipcode>
+    </restaurant>
+
+
+</Restaurants>

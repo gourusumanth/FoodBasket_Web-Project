@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<MenuItems>
+
+
+    
+  <menuItem id="1000" restaurantId="2">
+        <name>Extra-Vaganza Pizza</name>
+        <ingredients>Enriched Flour (Wheat Flour, Iron, Thiamine Mononitrate, Niacin, Riboflavin, Folic Acid), Water, Soybean Oil, Contains 2% or Less of the following: Sugar, Salt, Whey, Maltodextrin, Dextrose.</ingredients>
+        <price>15</price>
+        <image>images/italian.jpg</image>
+        <similarMenuItems id="1001 1002 1003 1004"/>
+        <sale>1</sale>
+        <quantity>12</quantity>
+  </menuItem>
+    <menuItem id="1001" restaurantId="2">
+        <name>Italian Pizza</name>
+        <ingredients>  Enriched Flour (Wheat Flour, Iron, Thiamine Mononitrate, Niacin, Riboflavin, Folic Acid), Water, Soybean Oil, Contains 2% or Less of the following: Sugar, Salt, Whey, Maltodextrin, Dextrose.</ingredients>
+        <price>17</price>
+        <image>images/italian.jpg</image>
+        <similarMenuItems id="1000 1002 1003 1004"/>
+        <sale>1</sale>
+        <quantity>20</quantity>
+  </menuItem>
+    <menuItem id="1002" restaurantId="2">
+        <name>Veggie Delight Pizza</name>
+        <ingredients>Enriched Flour (Wheat Flour, Iron, Thiamine Mononitrate, Niacin, Riboflavin, Folic Acid), Water, Soybean Oil, Contains 2% or Less of the following: Sugar, Salt, Whey, Maltodextrin, Dextrose.</ingredients>
+        <price>13</price>
+        <image>images/italian.jpg</image>
+        <similarMenuItems id="1000 1001 1003 1004"/>
+        <sale>1</sale>
+        <quantity>20</quantity>
+  </menuItem>
+    <menuItem id="1003" restaurantId="2">
+        <name>Thin Crust Pizza</name>
+        <ingredients>  Enriched Flour (Wheat Flour, Iron, Thiamine Mononitrate, Niacin, Riboflavin, Folic Acid), Water, Soybean Oil, Contains 2% or Less of the following: Sugar, Salt, Whey, Maltodextrin, Dextrose.</ingredients>
+        <price>18</price>
+        <image>images/italian.jpg</image>
+        <similarMenuItems id="1000 1001 1002 1004"/>
+        <sale>1</sale>
+        <quantity>15</quantity>
+  </menuItem>
+    <menuItem id="1004" restaurantId="2">
+        <name>Cheese Burst Pizza</name>
+        <ingredients>  Enriched Flour (Wheat Flour, Iron, Thiamine Mononitrate, Niacin, Riboflavin, Folic Acid), Water, Soybean Oil, Contains 2% or Less of the following: Sugar, Salt, Whey, Maltodextrin, Dextrose.</ingredients>
+        <price>25</price>
+        <image>images/italian.jpg</image>
+        <similarMenuItems id="1000 1001 1002 1003"/>
+        <sale>1</sale>
+        <quantity>25</quantity>
+  </menuItem>
+
+  <menuItem id="2000" restaurantId="2">
+        <name>Thin-Crust mexican Pizza</name>
+        <ingredients>Enriched Flour (Wheat Flour, Iron, Thiamine Mononitrate, Niacin, Riboflavin, Folic Acid), Water, Soybean Oil, Contains 2% or Less of the following: Sugar, Salt, Whey, Maltodextrin, Dextrose.</ingredients>
+        <price>15</price>
+        <image>images/foodimg1.jpg</image>
+        <similarMenuItems id="2001 2002 2003 2004"/>
+        <sale>1</sale>
+        <quantity>12</quantity>
+  </menuItem>
+
+   <menuItem id="2001" restaurantId="3">
+        <name>Australian style Pizza</name>
+        <ingredients>  Enriched Flour (Wheat Flour, Iron, Thiamine Mononitrate, Niacin, Riboflavin, Folic Acid), Water, Australian specialities, Contains 2% or Less of the following: Sugar, Salt, Whey, Maltodextrin, Dextrose.</ingredients>
+        <price>17</price>
+        <image>images/foodimg2.jpg</image>
+        <similarMenuItems id="2000 2002 2003 2004"/>
+        <sale>1</sale>
+        <quantity>20</quantity>
+  </menuItem>
+    <menuItem id="2002" restaurantId="3">
+        <name>Kenya Delight Pizza</name>
+        <ingredients> Soybean Oil, Contains 2% or Less of the following: Sugar, Salt, Whey, Maltodextrin, Dextrose, Served with your faviourite meat.</ingredients>
+        <price>13</price>
+        <image>images/foodimg3.jpg</image>
+        <similarMenuItems id="2000 2001 2003 2004"/>
+        <sale>1</sale>
+        <quantity>20</quantity>
+  </menuItem>
+    <menuItem id="2003" restaurantId="3">
+        <name>Deep Dish Pizza</name>
+        <ingredients>  Chicago's Famous deep dish pizza with your favourite toppings.</ingredients>
+        <price>18</price>
+        <image>images/foodimg4.jpg</image>
+        <similarMenuItems id="2000 2001 2002 2004"/>
+        <sale>1</sale>
+        <quantity>15</quantity>
+  </menuItem>
+    <menuItem id="2004" restaurantId="3">
+        <name>Thin Crust</name>
+        <ingredients>  Thin Crust (Wheat Flour, Iron, Thiamine Mononitrate, Niacin, Riboflavin, Folic Acid), Water,  Sugar, Salt, Whey, Maltodextrin, Dextrose, available with vegetable and meat toppings</ingredients>
+        <price>25</price>
+        <image>images/foodimg5.jpg</image>
+        <similarMenuItems id="2000 2001 2002 2003"/>
+        <sale>1</sale>
+        <quantity>25</quantity>
+  </menuItem>
+
+   <menuItem id="2005" restaurantId="4">
+        <name>stir fried veggies</name>
+        <ingredients>  Enriched Flour (Wheat Flour, Iron, Thiamine Mononitrate, Niacin, Riboflavin, Folic Acid), Water, Soybean Oil, Contains 2% or Less of the following: Sugar, Salt, Whey, Maltodextrin, Dextrose.</ingredients>
+        <price>17</price>
+        <image>images/foodimg6.jpg</image>
+        <similarMenuItems id="2009 2006 2007 2008"/>
+        <sale>1</sale>
+        <quantity>20</quantity>
+  </menuItem>
+    <menuItem id="2006" restaurantId="4">
+        <name>shangai salad</name>
+        <ingredients> Soybean Oil, Contains 2% or Less of the following: Sugar, Salt, Whey, Maltodextrin, Dextrose.</ingredients>
+        <price>13</price>
+        <image>images/foodimg7.jpg</image>
+        <similarMenuItems id="2009 2005 2007 2008"/>
+        <sale>1</sale>
+        <quantity>20</quantity>
+  </menuItem>
+    <menuItem id="2007" restaurantId="4">
+        <name>jin chen special</name>
+        <ingredients>  Enriched Flour (Wheat Flour, Iron, Thiamine Mononitrate, Niacin, Riboflavin, Folic Acid), Water, Whey, Maltodextrin, Dextrose.</ingredients>
+        <price>18</price>
+        <image>images/foodimg8.jpg</image>
+        <similarMenuItems id="2009 2005 2006 2008"/>
+        <sale>1</sale>
+        <quantity>15</quantity>
+  </menuItem>
+    <menuItem id="2008" restaurantId="4">
+        <name>chi un pizodia</name>
+        <ingredients>  Enriched Flour (Wheat Flour, Iron, Thiamine Mononitrate, Niacin, Riboflavin, Folic Acid), Water,  Sugar, Salt, Whey, Maltodextrin, Dextrose.</ingredients>
+        <price>25</price>
+        <image>images/foodimg9.jpg</image>
+        <similarMenuItems id="2009 2005 2006 2007"/>
+        <sale>1</sale>
+        <quantity>25</quantity>
+  </menuItem>
+    <menuItem id="2009" restaurantId="4">
+        <name>ki jun kaslim</name>
+        <ingredients>  Enriched Flour (Wheat Flour, Iron, Thiamine Mononitrate, Niacin, Riboflavin, Folic Acid), Water,  Sugar, Salt, Whey, Maltodextrin, Dextrose.</ingredients>
+        <price>25</price>
+        <image>images/foodimg10.jpg</image>
+        <similarMenuItems id="2008 2005 2006 2007"/>
+        <sale>1</sale>
+        <quantity>25</quantity>
+  </menuItem>
+
+
+   <menuItem id="2010" restaurantId="5">
+        <name>boiled veggies </name>
+        <ingredients> alfredo sauce, mushrooms and garlic parmesan</ingredients>
+        <price>17</price>
+        <image>images/foodimg11.jpg</image>
+        <similarMenuItems id="2014 2011 2012 2013"/>
+        <sale>1</sale>
+        <quantity>20</quantity>
+  </menuItem>
+    <menuItem id="2011" restaurantId="5">
+        <name>noodles fried</name>
+        <ingredients>  alfredo sauce, mushrooms and garlic parmesan</ingredients>
+        <price>13</price>
+        <image>images/foodimg12.jpg</image>
+        <similarMenuItems id="2014 2005 2012 2013"/>
+        <sale>1</sale>
+        <quantity>20</quantity>
+  </menuItem>
+    <menuItem id="2012" restaurantId="5">
+        <name>slow cooked veggies</name>
+         <ingredients>  alfredo sauce, mushrooms and garlic parmesan</ingredients>
+        <price>18</price>
+        <image>images/foodimg13.jpg</image>
+        <similarMenuItems id="2014 2005 2011 2013"/>
+        <sale>1</sale>
+        <quantity>15</quantity>
+  </menuItem>
+    <menuItem id="2013" restaurantId="5">
+        <name>ancient herbs salad</name>
+       <ingredients>  alfredo sauce, mushrooms and garlic parmesan</ingredients>
+        <price>25</price>
+        <image>images/foodimg14.jpg</image>
+        <similarMenuItems id="2014 2005 2011 2012"/>
+        <sale>1</sale>
+        <quantity>25</quantity>
+  </menuItem>
+    <menuItem id="2014" restaurantId="5">
+        <name>olive oil fried veggies</name>
+        <ingredients>  alfredo sauce, mushrooms and garlic parmesan</ingredients>
+        <price>25</price>
+        <image>images/foodimg15.jpg</image>
+        <similarMenuItems id="2013 2005 2011 2012"/>
+        <sale>1</sale>
+        <quantity>25</quantity>
+  </menuItem>
+
+   <menuItem id="2015" restaurantId="6">
+        <name>slow cooked halim </name>
+        <ingredients> rice, food color and veggies with olive oil</ingredients>
+        <price>13</price>
+        <image>images/foodimg16.jpg</image>
+        <similarMenuItems id="2019 2016 2017 2018"/>
+        <sale>1</sale>
+        <quantity>20</quantity>
+  </menuItem>
+    <menuItem id="2016" restaurantId="6">
+        <name>Kadhai Jinga</name>
+          <ingredients> rice, food color and veggies with olive oil</ingredients>
+        <price>13</price>
+        <image>images/foodimg17.jpg</image>
+        <similarMenuItems id="2019 2005 2017 2018"/>
+        <sale>1</sale>
+        <quantity>20</quantity>
+  </menuItem>
+    <menuItem id="2017" restaurantId="6">
+        <name>Su Buz Panch</name>
+           <ingredients> rice, food color and veggies with olive oil</ingredients>
+        <price>15</price>
+        <image>images/foodimg18.jpg</image>
+        <similarMenuItems id="2019 2005 2016 2018"/>
+        <sale>1</sale>
+        <quantity>15</quantity>
+  </menuItem>
+    <menuItem id="2018" restaurantId="6">
+        <name>makai mothia</name>
+         <ingredients> rice, food color and veggies with olive oil</ingredients>
+        <price>25</price>
+        <image>images/foodimg19.jpg</image>
+        <similarMenuItems id="2019 2005 2016 2017"/>
+        <sale>1</sale>
+        <quantity>25</quantity>
+  </menuItem>
+    <menuItem id="2019" restaurantId="6">
+        <name>galouti Gaheez</name>
+          <ingredients> rice, food color and veggies with olive oil</ingredients>
+        <price>25</price>
+        <image>images/foodimg20.jpg</image>
+        <similarMenuItems id="2018 2005 2016 2017"/>
+        <sale>1</sale>
+        <quantity>25</quantity>
+  </menuItem>
+
+
+
+
+
+  <menuItem id="5000" restaurantId="7">
+        <name>Crab Rangoon</name>
+        <ingredients>freshly cut meat marinated and fried with garlic sauce</ingredients>
+        <price>6</price>
+        <image>images/crabrangoon.jpg</image>
+        <similarMenuItems id="5001 5002 5003 5004"/>
+        <sale>1</sale>
+        <quantity>20</quantity>
+  </menuItem>
+<menuItem id="5001" restaurantId="7">
+        <name>Orange Chicken</name>
+        <ingredients>Chicken with food color and cheese topped pig ears in garlic sauce</ingredients>
+        <price>8</price>
+        <image>images/orangechicken.jpg</image>
+        <similarMenuItems id="5000 5002 5003 5004"/>
+        <sale>1</sale>
+        <quantity>12</quantity>
+  </menuItem>
+       <menuItem id="5002" restaurantId="7">
+        <name>Veggie Pork Fried Rice</name>
+         <ingredients>Chicken with food color and cheese topped pig ears in garlic sauce</ingredients>
+        <price>12</price>
+        <image>images/porkfried.jpg</image>
+        <similarMenuItems id="5000 5001 5003 5004"/>
+        <sale>1</sale>
+        <quantity>20</quantity>
+  </menuItem>
+    <menuItem id="5003" restaurantId="7">
+        <name>Chicken Rice</name>
+        <ingredients>  Enriched Flour (Wheat Flour, Iron, Thiamine Mononitrate, Niacin, Riboflavin, Folic Acid), Water, Soybean Oil, Contains 2% or Less of the following: Sugar, Salt, Whey, Maltodextrin, Dextrose.</ingredients>
+        <price>11</price>
+        <image>images/chickenrice.jpg</image>
+        <similarMenuItems id="5000 5001 5002 500"/>
+        <sale>1</sale>
+        <quantity>7</quantity>
+  </menuItem>
+    <menuItem id="5004" restaurantId="7">
+        <name>Mango Shake</name>
+        <ingredients>  Enriched Flour (Wheat Flour, Iron, Thiamine Mononitrate, Niacin, Riboflavin, Folic Acid), Water, Soybean Oil, Contains 2% or Less of the following: Sugar, Salt, Whey, Maltodextrin, Dextrose.</ingredients>
+        <price>5</price>
+        <image>images/mangojuice.jpg</image>
+        <similarMenuItems id="5000 5001 5002 5003"/>
+        <sale>1</sale>
+        <quantity>5</quantity>
+  </menuItem>
+<menuItem id="5500" restaurantId="8">
+        <name>Bao Chicken wow</name>
+         <ingredients>Chicken with food color and cheese topped pig ears in garlic sauce</ingredients>
+        <price>6</price>
+        <image>images/bao_chicken_wow.jpg</image>
+        <similarMenuItems id="5501 5502 5503 5504"/>
+        <sale>1</sale>
+        <quantity>20</quantity>
+  </menuItem>
+<menuItem id="5501" restaurantId="8">
+        <name>Kimchifries</name>
+         <ingredients>Kichmies are one of the rarely fund species in the thailand mountains
+            freshly cut, dipped with pickles and deep fried </ingredients>
+        <price>8</price>
+        <image>images/kimchifries.jpg</image>
+        <similarMenuItems id="5500 5502 5503 5504"/>
+        <sale>1</sale>
+        <quantity>12</quantity>
+  </menuItem>
+       <menuItem id="5502" restaurantId="8">
+        <name>Chicken Fried Rice</name>
+         <ingredients>chciken are one of the rarely fund species in the thailand mountains
+            freshly cut, dipped with pickles and deep fried </ingredients>
+        <price>12</price>
+        <image>images/chickenfried.jpg</image>
+        <similarMenuItems id="5500 5501 5503 5504"/>
+        <sale>1</sale>
+        <quantity>20</quantity>
+  </menuItem>
+    <menuItem id="5503" restaurantId="8">
+        <name>Orange Chicken</name>
+         <ingredients>Kichmies are one of the rarely fund species in the thailand mountains
+            freshly cut, dipped with pickles and deep fried </ingredients>
+        <price>11</price>
+        <image>images/orangechicken2.jpg</image>
+        <similarMenuItems id="5500 5501 5502 5504"/>
+        <sale>1</sale>
+        <quantity>7</quantity>
+  </menuItem>
+    <menuItem id="5504" restaurantId="8">
+        <name>Korean BBQ Ribs</name>
+         <ingredients>pig ribs are one of the rarely found in the german mountains
+            freshly cut, dipped with pickles and deep fried </ingredients>
+        <price>5</price>
+        <image>images/koreanbbqribs.jpg</image>
+        <similarMenuItems id="5500 5501 5502 5503"/>
+        <sale>1</sale>
+        <quantity>5</quantity>
+</menuItem>
+<menuItem id="6000" restaurantId="9">
+        <name>Buffalo Wild Wings</name>
+         <ingredients>pig ribs are one of the rarely found in the german mountains
+            freshly cut, dipped with pickles and deep fried </ingredients>
+        <image>images/buffalochickenwings.jpg</image>
+        <similarMenuItems id="6001 6002 6003 6004"/>
+        <sale>1</sale>
+        <quantity>20</quantity>
+  </menuItem>
+<menuItem id="6001" restaurantId="9">
+        <name>Cheese Thin Crust pizza</name>
+         <ingredients>pig ribs are one of the rarely found in the german mountains
+            freshly cut, dipped with pickles and deep fried </ingredients>
+        <price>8</price>
+        <image>images/cheesethincrust.jpg</image>
+        <similarMenuItems id="6000 6002 6003 6004"/>
+        <sale>1</sale>
+        <quantity>12</quantity>
+  </menuItem>
+       <menuItem id="6002" restaurantId="9">
+        <name>1 topping thin crust pizza</name>
+       <ingredients>pig ribs are one of the rarely found in the german mountains
+            freshly cut, dipped with pickles and deep fried </ingredients>
+        <price>11</price>
+        <image>images/1toppingthin.jpg</image>
+        <similarMenuItems id="6000 6001 6003 6004"/>
+        <sale>1</sale>
+        <quantity>20</quantity>
+  </menuItem>
+    <menuItem id="6003" restaurantId="9">
+        <name>Garlic Bread</name>
+        <ingredients>  Enriched Flour (Wheat Flour, Iron, Thiamine Mononitrate, Niacin, Riboflavin, Folic Acid), Water, Soybean Oil, Contains 2% or Less of the following: Sugar, Salt, Whey, Maltodextrin, Dextrose.</ingredients>
+        <price>8</price>
+        <image>images/garlicbread.jpg</image>
+        <similarMenuItems id="6000 6001 6002 6004"/>
+        <sale>1</sale>
+        <quantity>15</quantity>
+  </menuItem>
+    <menuItem id="6004" restaurantId="9">
+        <name>Ceaser Salad</name>
+          <ingredients>Feshly cut vegtables with your choice of meat or fried potatoes </ingredients>
+        <price>5</price>
+        <image>images/ceaser.jpg</image>
+        <similarMenuItems id="6000 6001 6002 6003"/>
+        <sale>1</sale>
+        <quantity>15</quantity>
+  </menuItem>
+    <menuItem id="7005" restaurantId="1">
+        <name>Jamaican Jerk Chicken</name>
+        <ingredients>Jamaican Jerk Chicken with lime and potatoes </ingredients>
+        <price>15</price>
+        <image>images/jaimacan_jerk_chicken.jpg</image>
+        <similarMenuItems id="6000 6001 6002 6003"/>
+        <sale>1</sale>
+        <quantity>15</quantity>
+    </menuItem>
+
+    <menuItem id="7006" restaurantId="5">
+        <name>Tandoori White Fish</name>
+        <ingredients>Tandoori White Fish and Sweet Mash Potato </ingredients>
+        <price>25</price>
+        <image>images/tandoori_white_fish.jpg</image>
+        <similarMenuItems id="6000 6001 6002 6003"/>
+        <sale>1</sale>
+        <quantity>15</quantity>
+    </menuItem>
+
+    <menuItem id="7007" restaurantId="1">
+        <name>Beer Stir Fry</name>
+        <ingredients>Beer Stir Fry With Black Brans</ingredients>
+        <price>25</price>
+        <image>images/Beef_Stir_Fry.jpg</image>
+        <similarMenuItems id="2014 2011 2012 2013"/>
+        <sale>1</sale>
+        <quantity>15</quantity>
+    </menuItem>
+
+    <menuItem id="7008" restaurantId="5">
+        <name>BBQ Pulled Pork</name>
+        <ingredients>BBQ Pulled Pork with an added Egg</ingredients>
+        <price>22</price>
+        <image>images/Jamaican_Jerk_Manrinade.jpg</image>
+        <similarMenuItems id="2014 2011 2012 2013"/>
+        <sale>1</sale>
+        <quantity>15</quantity>
+    </menuItem>
+    <menuItem id="6005" restaurantId="10">
+        <name>Butter Naan</name>
+        <ingredients>Butter Naan with 5 curry's</ingredients>
+        <price>8</price>
+        <image>images/foodimg20.jpg</image>
+        <similarMenuItems id="6006 6007 6008 6009"/>
+        <sale>1</sale>
+        <quantity>20</quantity>
+    </menuItem>
+    <menuItem id="6006" restaurantId="10">
+        <name>Idly</name>
+        <ingredients>idly flour, urad dal soaked and finely grinded and then steamed in
+            idly pan for 20mins served with groundnut chutney</ingredients>
+        <price>8</price>
+        <image>images/foodimg21.jpg</image>
+        <similarMenuItems id="6005 6007 6008 6009"/>
+        <sale>1</sale>
+        <quantity>12</quantity>
+    </menuItem>
+    <menuItem id="6007" restaurantId="10">
+        <name>Samosa</name>
+        <ingredients>deep fried maida flour stuffed with aloo curry </ingredients>
+        <price>11</price>
+        <image>images/samosa.jpg</image>
+        <similarMenuItems id="6005 6006 6008 6009"/>
+        <sale>1</sale>
+        <quantity>20</quantity>
+    </menuItem>
+    <menuItem id="6008" restaurantId="10">
+        <name>Dal</name>
+        <ingredients>dal soaked for 30 mins and cooked in a cooker and finally fried in ghee	        </ingredients>
+        <price>8</price>
+        <image>images/dal.jpg</image>
+        <similarMenuItems id="6005 6006 6007 6009"/>
+        <sale>1</sale>
+        <quantity>15</quantity>
+    </menuItem>
+    <menuItem id="6009" restaurantId="10">
+        <name>Dosa Chutney</name>
+        <ingredients>Minappapu soaked overnight and finely grinded and toated on a pan with ghee</ingredients>
+        <price>5</price>
+        <image>images/foodimg22.jpg</image>
+        <similarMenuItems id="6005 6006 6007 6008"/>
+        <sale>1</sale>
+        <quantity>15</quantity>
+    </menuItem>
+
+
+    <menuItem id="6010" restaurantId="11">
+        <name>Dahi puri</name>
+        <ingredients>Puri with dahi and sweet chutney</ingredients>
+        <price>8</price>
+        <image>images/dahipuri.jpg</image>
+        <similarMenuItems id="6011 6012 6013 6009"/>
+        <sale>1</sale>
+        <quantity>20</quantity>
+    </menuItem>
+    <menuItem id="6011" restaurantId="11">
+        <name>samosa chole</name>
+        <ingredients> samosa with tenderly cooked chole</ingredients>
+        <price>8</price>
+        <image>images/samosachole.jpg</image>
+        <similarMenuItems id="6010 6012 6013 6014"/>
+        <sale>1</sale>
+        <quantity>12</quantity>
+    </menuItem>
+    <menuItem id="6012" restaurantId="11">
+        <name>dheeru kulfi</name>
+        <ingredients>Sweetened Ice with small stick</ingredients>
+        <price>11</price>
+        <image>images/dheerukulfi.jpg</image>
+        <similarMenuItems id="6010 6011 6013 6014"/>
+        <sale>1</sale>
+        <quantity>20</quantity>
+    </menuItem>
+    <menuItem id="6013" restaurantId="11">
+        <name>Pani Puri Shots</name>
+        <ingredients>puri with pani in shot glasses</ingredients>
+        <price>8</price>
+        <image>images/panipurishot.jpg</image>
+        <similarMenuItems id="6010 6011 6012 6014"/>
+        <sale>1</sale>
+        <quantity>15</quantity>
+    </menuItem>
+    <menuItem id="6014" restaurantId="11">
+        <name>Samosa Ragada</name>
+        <ingredients>Minappapu soaked overnight and finely grinded and toated on a pan with ghee</ingredients>
+        <price>5</price>
+        <image>images/samosaragada.jpg</image>
+        <similarMenuItems id="6010 6011 6012 6013"/>
+        <sale>1</sale>
+        <quantity>15</quantity>
+    </menuItem>
+
+    <menuItem id="6015" restaurantId="12">
+        <name>Monday meal</name>
+        <ingredients>Puri with dahi and sweet chutney</ingredients>
+        <price>8</price>
+        <image>images/rajdhani1.jpg</image>
+        <similarMenuItems id="6016 6017 6018 6009"/>
+        <sale>1</sale>
+        <quantity>20</quantity>
+    </menuItem>
+    <menuItem id="6016" restaurantId="12">
+        <name>Tuesday Meal</name>
+        <ingredients> samosa with tenderly cooked chole</ingredients>
+        <price>8</price>
+        <image>images/rajdhani2.jpg</image>
+        <similarMenuItems id="6015 6017 6018 6019"/>
+        <sale>1</sale>
+        <quantity>12</quantity>
+    </menuItem>
+    <menuItem id="6017" restaurantId="12">
+        <name>Wednesday Meal</name>
+        <ingredients>Sweetened Ice with small stick</ingredients>
+        <price>11</price>
+        <image>images/rajdhani3.jpg</image>
+        <similarMenuItems id="6015 6016 6018 6019"/>
+        <sale>1</sale>
+        <quantity>20</quantity>
+    </menuItem>
+    <menuItem id="6018" restaurantId="12">
+        <name>Thursday Meal</name>
+        <ingredients>puri with pani in shot glasses</ingredients>
+        <price>8</price>
+        <image>images/rajdhani4.jpg</image>
+        <similarMenuItems id="6015 6016 6017 6019"/>
+        <sale>1</sale>
+        <quantity>15</quantity>
+    </menuItem>
+    <menuItem id="6019" restaurantId="12">
+        <name>Friday Meal</name>
+        <ingredients>deep fried samosa smashed into fine pieces topped with different sauces</ingredients>
+        <price>5</price>
+        <image>images/rajdhani5.jpg</image>
+        <similarMenuItems id="6015 6016 6017 6018"/>
+        <sale>1</sale>
+        <quantity>15</quantity>
+    </menuItem>
+
+
+    <menuItem id="6020" restaurantId="13">
+        <name>Ice Cream 1</name>
+        <ingredients>Milk yeast, sugar and cream</ingredients>
+        <price>8</price>
+        <image>images/cs1.jpg</image>
+        <similarMenuItems id="6021 6022 6023 6009"/>
+        <sale>1</sale>
+        <quantity>20</quantity>
+    </menuItem>
+    <menuItem id="6021" restaurantId="13">
+        <name>Ice Cream 2</name>
+        <ingredients> Milk yeast, choclate and cream</ingredients>
+        <price>8</price>
+        <image>images/cs2.jpg</image>
+        <similarMenuItems id="6020 6022 6023 6024"/>
+        <sale>1</sale>
+        <quantity>12</quantity>
+    </menuItem>
+    <menuItem id="6022" restaurantId="13">
+        <name>Ice Cream 3</name>
+        <ingredients>Milk yeast, caramel and cream</ingredients>
+        <price>11</price>
+        <image>images/cs3.jpg</image>
+        <similarMenuItems id="6020 6021 6023 6024"/>
+        <sale>1</sale>
+        <quantity>20</quantity>
+    </menuItem>
+    <menuItem id="6023" restaurantId="13">
+        <name>Ice Cream 4</name>
+        <ingredients>Milk yeast, Mint and cream</ingredients>
+        <price>8</price>
+        <image>images/cs4.jpg</image>
+        <similarMenuItems id="6020 6021 6022 6024"/>
+        <sale>1</sale>
+        <quantity>15</quantity>
+    </menuItem>
+    <menuItem id="6024" restaurantId="13">
+        <name>Ice Cream 5</name>
+        <ingredients>fruits,Milk yeast, sugar and cream</ingredients>
+        <price>5</price>
+        <image>images/cs5.jpg</image>
+        <similarMenuItems id="6020 6021 6017 6023"/>
+        <sale>1</sale>
+        <quantity>15</quantity>
+    </menuItem>
+
+
+
+
+</MenuItems>

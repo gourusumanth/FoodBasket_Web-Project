@@ -1,0 +1,209 @@
+<div id="content">
+    <div id="mycarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="images/food1.jpg" alt="" class="img-responsive" style="width:100%; height: 300px">
+
+                <div class="carousel-caption">
+                    <h1>Who delivers in your neighbourhood</h1>
+                    <h1>20% off every 6th order</h1>
+                    <form action="RestaurantServlet">
+                        <div class="input-group">
+                            <span class="input-group-addon" id="basic-addon1"> <i class="glyphicon glyphicon-map-marker" style="overflow: hidden"></i></span>
+                            <input type="number" name="zipcode" class="form-control" placeholder="Zipcode" aria-describedby="basic-addon1" maxlength="5" minlength="5">
+
+                        </div>
+
+                        <div>
+                            <input type="submit" class="btn btn-primary"  style="background-color: #42b9f4; width: 150px;margin-top: 5px ;font-size:20px;font-weight: 700" class="form-control" class="form-control" value="Find Food">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h3 style="">How it works</h3>
+<p style="margin-left: 33%; font-weight: 500">Ordering from your favorite restaurant is even easier than eating.</p>
+<div class="row">
+    <div class="col-sm-4" style=" margin-top:10px;text-align: center">
+        <img src="images/thewherelogo.jpg" class="img-circle" alt="Cinque Terre" width="204" height="136">
+        <h4 style="font-weight: bold">The where</h4>
+        <p>Browse menus from your favorite local <br> restaurants.</p>
+    </div>
+    <div class="col-sm-4" style=" margin-top:10px;text-align: center">
+        <img src="images/thewhatlogo.jpg" class="img-circle" alt="Cinque Terre" width="204" height="136">
+        <h4 style="font-weight: bold">The What</h4>
+        <p>Select what you want to eat. Submit your order.</p>
+    </div>
+    <div class="col-sm-4" style=" margin-top:10px;text-align: center">
+        <img src="images/deliverylogo.jpg" class="img-circle" alt="Cinque Terre" width="204" height="136">
+        <h4 style="font-weight: bold">The delivery</h4>
+        <p>Get the door and enjoy your food!</p>
+    </div>
+</div>
+
+
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    ×
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                    Login/Registration
+                </h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-8" style="border-right: 1px dotted #C2C2C2;padding-right: 30px;">
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="#Login" data-toggle="tab">Login</a></li>
+                            <li><a href="#Registration" data-toggle="tab">Registration</a></li>
+                        </ul>
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="Login">
+                                <form role="form" class="form-horizontal" action="LoginServlet" method="get">
+                                    <div class="form-group">
+                                        <label for="username" class="col-sm-2 control-label">
+                                            Username
+                                        </label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control" id="username" name="username" placeholder="Username" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="password" class="col-sm-2 control-label">
+                                            Password
+                                        </label>
+                                        <div class="col-sm-10">
+                                            <input type="password" class="form-control" id="password" name="password" placeholder="password" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="role" class="col-sm-2 control-label">
+                                            Role
+                                        </label>
+                                        <div class="col-sm-10">
+                                            <div class="row">
+                                                <div class="col-md-3"  placeholder="Name">
+                                                    <select class="form-control" name="role">
+                                                        <option>Customer</option>
+                                                        <option>FoodVendor</option>
+                                                        <option>Admin</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-2">
+                                        </div>
+                                        <div class="col-sm-10">
+                                            <input type="submit" class="btn btn-primary btn-sm" name="signin" value="Signin"/>
+                                            <!--<a href="#">Forgot your password?</a>-->
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="tab-pane" id="Registration">
+                                <form role="form" class="form-horizontal" action="LoginServlet" method="get">
+                                    <div class="form-group">
+                                        <label for="signupname" class="col-sm-2 control-label">
+                                            Name
+                                        </label>
+                                        <div class="col-sm-10">
+                                            <div class="row">
+                                                <div class="col-md-3">
+                                                    <select class="form-control">
+                                                        <option>Mr.</option>
+                                                        <option>Ms.</option>
+                                                        <option>Mrs.</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-md-9">
+                                                    <input type="text" class="form-control" placeholder="Name" id="signupname" name="signupname"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="signupusername" class="col-sm-2 control-label">
+                                            Username
+                                        </label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control" id="signupusername" name="signupusername" placeholder="Username" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="signuppassword" class="col-sm-2 control-label">
+                                            Password
+                                        </label>
+                                        <div class="col-sm-10">
+                                            <input type="password" class="form-control" id="signuppassword" name="signuppassword" placeholder="Password" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="confirmpassword" class="col-sm-2 control-label">
+                                            Confirm Password
+                                        </label>
+                                        <div class="col-sm-10">
+                                            <input type="password" class="form-control" id="confirmpassword" name="confirmpassword" placeholder="confirmpassword" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="role" class="col-sm-2 control-label">
+                                            Role
+                                        </label>
+                                        <div class="col-sm-10">
+                                            <div class="row">
+                                                <div class="col-md-3"  placeholder="Name">
+                                                    <select class="form-control"  id="role" name="role">
+                                                        <option>Customer</option>
+                                                        <option>FoodVendor</option>
+                                                        <option>Admin</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-2">
+                                        </div>
+                                        <div class="col-sm-10">
+                                            <input type="submit" class="btn btn-primary btn-sm" id="signup" name="signup" value="Signup"/>
+                                            <input type="submit" class="btn btn-default btn-sm" id="cancel" name="cancel" value="Cancel"/>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div id="OR" class="hidden-xs">
+                            OR</div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row text-center sign-with">
+                            <div class="col-md-12">
+                                <h3 style="margin-left: 5px">
+                                    Like FoodBasket??
+                                </h3>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="btn-group btn-group-justified">
+                                    <a href="#" class="btn btn-primary">Like</a> <a href="#" class="btn btn-danger">
+                                    Share</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
